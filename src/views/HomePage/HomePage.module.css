@@ -1,0 +1,18 @@
+.title {
+  margin-bottom: 20px;
+
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--primaryTextColor);
+}
+
+.loader {
+  text-align: center;
+}
+
+@media screen and (min-width: 1280px) {
+  .title {
+    font-size: 30px;
+  }
+}

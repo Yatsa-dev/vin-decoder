@@ -1,0 +1,67 @@
+.variable {
+  text-align: center;
+}
+
+.title {
+  margin-bottom: 15px;
+
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.list {
+  font-size: 12px;
+  line-height: 1.5;
+  border: 1px solid var(--primaryLightColor);
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item:nth-child(even) {
+  background-color: var(--primaryLightColor);
+}
+
+.itemKey {
+  padding-left: 5px;
+}
+
+.itemValue {
+  padding-right: 5px;
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+
+.description {
+  text-align: right;
+  padding-right: 5px;
+  overflow-wrap: anywhere;
+}
+
+.notFound {
+  text-align: center;
+  font-size: 20px;
+}
+
+.loader {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 25px;
+  }
+
+  .list {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .list {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,52 @@
+@import-normalize;
+:root {
+  --primaryTextColor: #090b0e;
+  --secondaryTextColor: #19273d;
+  --primaryLightColor: #eeeeee;
+  --accentColor: #373838;
+}
+
+html {
+  box-sizing: border-box;
+  width: 100vw;
+  overflow-x: hidden;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  position: relative;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+  color: #212121;
+  background-color: rgb(35, 56, 42);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}

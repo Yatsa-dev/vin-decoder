@@ -1,0 +1,24 @@
+.container {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 3px 0 rgba(60, 64, 67, 0.3),
+    0 2px 4px 1px rgba(60, 64, 67, 0.15);
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 70%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 90%;
+  }
+}
